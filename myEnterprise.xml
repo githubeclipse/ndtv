@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Enterprise">
+	<test name="Online Booking">
+	<parameter name="firstName" value="Komal"/>
+	<parameter name="lastName" value="Budhiraja"/>
+	<parameter name="PhoneNumber" value="6477240052"/>
+	<parameter name="email" value="k@gmail.com"/>
+		<classes>
+			<class name="myEnterprise.enterpriseTest">
+
+			</class>
+		</classes>
+	</test>
+</suite>
